@@ -1,18 +1,14 @@
 {
   "name": "ScreenshotMaker",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "private": true,
+  "version": "0.1.0",
+  "description": "AWS Lambda Function that loads Chromium. Refer to https://github.com/Sparticuz/chromium#install for compatible versions.",
+  "main": "index.mjs",
+  "devDependencies": {
+    "@sparticuz/chromium-min": "^133.0.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "aws-sdk": "2.1692.0",
-    "chrome-aws-lambda": "10.1.0",
-    "puppeteer-core": "10.1.0"
+    "puppeteer-core": "^24.9.0",
+    "aws-sdk": "2.1692.0"
   }
 }
