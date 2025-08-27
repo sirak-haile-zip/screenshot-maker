@@ -1,2 +1,3 @@
 # screenshot-maker
-An AI agent to capture screenshots
+
+A lambda function that is used by AI agent to capture screenshots of specific pages.
